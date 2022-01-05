@@ -374,37 +374,36 @@ body.show-menu .menu-btn .l3{
 	box-shadow:0 0 40px 0 rgba(0,0,0,.45);
 }
 .main-section-row {
-	margin-left: 370px;
-	width: auto;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width: 1000px;
   }
 .main-section-row-item {
-	width: auto;
+	margin-left: 10px;
 	display: inline-block;
   }
 .person-img{
-	width:220px;
-	height:220px;
+	width:200px;
+	height:200px;
 	display:block;
 	border-radius:50%;
-	margin-right: 20px;
 	overflow:hidden;
 	-webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,.15);
 	-moz-box-shadow: 0 0 25px 0 rgba(0,0,0,.15);
-	box-shadow: 0 0 25px 0 rgba(0,0,0,.15);
+	box-shadow: 0 0 25px 0 rgba(63, 58, 58, 0.15);
 }
 .intro-name{
 	color:#202020;
 	color:#484848;
 	font-size:68px;	
 	font-weight:300;
-	margin:0;
 	line-height:1em;
 	letter-spacing:2px;
 }
 .intro-info{
 	font-size:20px;
-	margin-top:10px;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	display:inline-block;
 	*display:inline;
 	*zoom:1;
